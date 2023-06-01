@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  width: 99vw;
+  height: 33vw;
+  background-color: #a6abb9;
+}
+
+.logo {
+  border-radius: 40%;
+  width: 6%;
+  margin: 1em;
+}
+.container {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
+}
+.foto1 {
+  width: 17%;
+}
+
+a .sociais {
+  width: 4%;
+  height: 10%;
+  background-color: blue;
+  border-radius: 50%;
+}
+.subTitulo {
+  text-align: center;
+}
+.front {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 1em;
+}
+
+.formacao {
+  height: 39%;
+}
+.caixa {
+  width: 90;
+  height: 22%;
+  margin-left: 1%;
+  background-color: #bfc4d1;
+}
+p.paragrafo {
+  text-align: center;
+  font-size: 2em;
+  font-family: "Raleway", sans-serif;
+  margin: 1em;
+  padding: 52px;
+}
+.sectionFooter {
+  height: 60vh;
+}
+h3 {
+  text-align: center;
+  font-size: 2em;
+}
+figure {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  margin: 2em;
+}
+.html,
+.css,
+.js,
+.react {
+  width: 30vh;
+  display: inline;
+}
+footer {
+  height: 20vh;
+  background-color: rgb(150, 147, 153);
+  color: blue;
+}
+
+div.formulario {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 12vh;
+}
+
+input {
+  height: 40px;
+}
+#assunto {
+  color: rgb(8, 0, 0);
+}
+#texto {
+  color: black;
+  font-family: ;
+}
+#enviar {
+  border-radius: 5vh;
+  background-color: cornflowerblue;
+  width: 10%;
+}
+input#caixa1 {
+  height: 100px;
+}
+.autor {
+  text-align: center;
+  font-size: 30px;
+}
+p.descricao {
+  text-align: center;
+}
